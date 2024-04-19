@@ -1,0 +1,10 @@
+.flexItem {
+  padding: 1rem 16rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.city h2 {
+  padding: 0rem 16rem;
+  font-size: 18px;
+}

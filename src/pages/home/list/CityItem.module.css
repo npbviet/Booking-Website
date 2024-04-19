@@ -1,0 +1,27 @@
+.cityItem {
+  padding: 1rem 0rem;
+  position: relative;
+}
+.cityItem img {
+  display: block;
+  width: 320px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.cityName {
+  font-size: 30px;
+  color: aliceblue;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  font-weight: bold;
+}
+
+.citySubtext {
+  color: aliceblue;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  font-weight: bold;
+}

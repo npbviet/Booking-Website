@@ -1,0 +1,39 @@
+.hotelDetail {
+  font-size: 14px;
+}
+.hotelDetail img {
+  display: block;
+  width: 240px;
+  height: 260px;
+  padding-bottom: 0.5rem;
+}
+.hotelName {
+  padding-bottom: 0.5rem;
+  text-decoration-line: underline;
+  font-weight: bold;
+  color: #1c7ed6;
+}
+.hotelName:hover,
+.hotelName:active,
+.hotelName:visited {
+  color: blueviolet;
+  cursor: pointer;
+}
+.hotelCity {
+  padding-bottom: 0.5rem;
+  color: #868e96;
+}
+.hotelPrice {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+.hotelRate {
+  padding: 0.25rem;
+  color: aliceblue;
+  background-color: #1c7ed6;
+  font-size: 13px;
+}
+.hotelDetailType {
+  padding-left: 0.5rem;
+  font-size: 13px;
+}

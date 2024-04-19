@@ -1,0 +1,77 @@
+.searchList {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0 0 2rem 2rem;
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+  line-height: 2rem;
+}
+.searchListCol1 img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.searchListCol2 {
+  flex-grow: 1;
+  padding: 0 1rem;
+}
+.searchListName {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4dabf7;
+  padding: 0.5rem 0;
+}
+.searchListTag {
+  background-color: #40c057;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 0 0.25rem;
+  width: 8rem;
+}
+.searchListType {
+  font-weight: bold;
+}
+.searchListFreeCancel {
+  color: #40c057;
+}
+.freeCancel {
+  font-weight: bold;
+}
+.searchListCol3 {
+  text-align: right;
+  padding: 0.5rem;
+}
+.rateText {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+.rateText span {
+  background-color: #003775;
+  color: aliceblue;
+  padding: 0 0.25rem;
+  font-size: 18px;
+}
+.searchListCol3 h3 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+.searchListCol3 p {
+  padding: 0;
+  color: #adb5bd;
+  font-size: 14px;
+}
+.searchListCol3 button {
+  background-color: #1971c2;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 11rem;
+  font-size: 16px;
+  font-weight: bold;
+}

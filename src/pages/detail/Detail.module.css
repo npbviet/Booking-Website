@@ -1,0 +1,94 @@
+.detail {
+  margin: 0 2rem;
+  padding: 2rem 15rem;
+}
+.detail h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.detailFlex1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 1rem 0;
+  align-content: flex-start;
+  line-height: 3rem;
+}
+.detailLocation {
+  font-size: 14px;
+}
+.detailLocation span {
+  padding-left: 0.5rem;
+}
+.detailDistance {
+  color: #22b8cf;
+  font-weight: 600;
+}
+.detailPrice {
+  color: #2f9e44;
+  font-weight: 600;
+}
+.detailFlex1 button {
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  background-color: #1c7ed6;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.detailFlex2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 1rem;
+}
+.detailFlex2 img {
+  width: 19.5rem;
+  height: 13rem;
+}
+.detailFlex3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0.5rem 0 0;
+}
+.detailFlex3Item p {
+  padding: 2rem 0;
+  width: 43rem;
+}
+.detailTable {
+  padding: 1rem;
+  background-color: #e7f5ff;
+}
+.detailTable h4 {
+  padding: 1rem 0;
+  font-size: 19px;
+  color: #495057;
+}
+.detailTable p {
+  padding: 1rem 0;
+}
+.detail9Price {
+  font-weight: bold;
+  font-size: 28px;
+  padding: 1rem 0;
+}
+.detail9Price span {
+  font-weight: 400;
+  color: #495057;
+}
+.detailTable button {
+  height: 2.5rem;
+  width: 15rem;
+  padding: 0 1rem;
+  background-color: #1c7ed6;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover,
+button:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
