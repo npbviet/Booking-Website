@@ -1,7 +1,7 @@
 {
   "name": "booking",
   "version": "0.1.0",
-  "homepage": "https://npbviet.github.io/Order-Food/",
+  "homepage": "https://npbviet.github.io/Booking-Website/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
