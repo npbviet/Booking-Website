@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Detail from "./pages/detail/Detail";
 import Search from "./pages/search/Search";
@@ -11,13 +11,13 @@ library.add(fab, fas);
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/detail" element={<Detail />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
